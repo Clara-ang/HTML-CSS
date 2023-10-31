@@ -1,0 +1,17 @@
+#head {
+    font-size: 18px;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+    border-bottom-color: black;
+}
+#content {
+    font-size: 16px;
+    margin-top: 10px 5px 10px 5px;
+    background-color: pink;
+  }
+  #footer {
+    font-size: 12px;
+    border-top-style: double;
+    border-top-width: 4px;
+    border-top-color: black;
+  }
