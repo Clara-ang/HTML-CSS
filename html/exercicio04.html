@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Escreva o código HTML para gerar a página a seguir. 
+     Utilize tags div para realizar as divisões da página.-->
+
+<html>
+  <head>
+    <title>CSS - Exercício 2</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        .head {
+            margin: 0px; 
+            border-width: 5px;
+            padding: 16px;
+            font-family: Arial;
+            font-size: 18px;
+        }
+
+        .p1 {
+            font-weight: bold;
+            font-family: monospace;
+        }
+        .mar{
+            margin: -1.7%;
+        }
+        .text{
+            text-decoration-line: line-through;
+            font-family: monospace;
+        }
+
+        .p2 {
+            margin: 0% 5% 2% 2%;
+            padding: 14px;
+            text-align: left;
+            font-size: 16px;
+            font-family: monospace;
+        }
+
+        .p3 {
+            margin: -1% 0% 2% -0.1%;
+            padding: 14px;
+            text-align: left;
+            font-size: 20px;
+        }
+        .p4 {
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+       
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="head">Trechos de código que merecem destaque são marcados em negrito</p>
+
+      <p class="p2"> <span class="mar">body{ </span><br>
+                      margin: 0;<br>
+                      padding: 0;<br>
+                      font-family: Arial, Sans-serif;<br>
+           <span class="p1">background: #fff;</span><br>
+      <span class="mar">}</span></p>
+    </div>
+
+    <div>
+
+        <p class="head">Supressão de códigos serão marcados com linha de sobrescrito:</p>
+
+        <p class="p2"> <span class="mar">body{ </span><br>
+                        margin: 0;<br>
+                        <span class="text">padding: 0;</span><br>
+                        font-family: Arial, Sans-serif;<br>
+                        background: #fff;<br>
+        <span class="mar">}</span></p>
+
+    </div>
+    <div>
+      <p class="p3">
+        Códigos, elementos (X)HTML e sintaxe CSS contido em textos são marcados com fonte<br>
+        monoespaçada: <br><br>
+        O elemento (X)HTML <span class="p4">blockquote</span> destina-se a citações longos. Para endentação, use a <br>
+        propriedades CSS <span class="p4">text-indente.</span>
+      </p>
+
+    </div>
+
+    
+  </body>
+</html>
