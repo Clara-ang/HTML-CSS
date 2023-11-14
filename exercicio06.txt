@@ -1,7 +1,7 @@
 2) Descreva o conjunto de elementos selecionados por cada um dos seletores a seguir:
 
 A - .noticia p - A regra CSS a formata o texto de todos os elementos p descendentes de qualquer elemento .noticia.
-B - #menu > ul - #menu é pai de ul, pois o símbolo > é utilizado para indicar a relação pai-e-filho.
-C - div.corpo a - Formata o texto de todos os elementos a descendentes de qualquer elementoa div img e que por sua vez são descendentes de algum elemento corpo. 
+B - #menu > ul - Indica uma relação com de pai e filho entre ul e menu, portanto formata qualquer um com id="menu".
+C - div.corpo a - Formata qualquer descendente dessa div, com a classe corpo e o elemento a. 
 D -img.mapa:hover - As pseudoclasses geram seletores fora da hierarquia, pois podem ocupar qualquer posição no 
-seletor. Nesse caso :hover (pseudoclasses dinâmicas) está formatando os elementos img e mapa.
+seletor. Nesse caso :hover (pseudoclasses dinâmicas) está formatando as classes img e mapa.
