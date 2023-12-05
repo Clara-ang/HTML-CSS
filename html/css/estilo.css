@@ -1,29 +1,31 @@
-
+body {
+  background-image: url(/html/img/fundo.jpg);
+  border: solid 1px black;
+  height: 100px;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: rgb(167, 220, 255);
   }
   
-  li {
+li {
     float: left;
+    
   }
   
-  li a {
+li a {
     display: block;
     color: #666;
     text-align: center;
-    padding: 14px 16px;
+    padding: 6px 16px;
     text-decoration: none;
   }
   
-  li a:hover:not(.act) {
+li a:hover:not(.act) {
     background-color: #ddd;
   }
   
-  li a.act {
-    color: white;
-  }
