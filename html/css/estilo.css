@@ -1,31 +1,31 @@
 body {
   background-image: url(/html/img/fundo.jpg);
-  border: solid 1px black;
-  height: 100px;
+  height: 100%;
+  margin-top: 2%;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: rgb(167, 220, 255);
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: rgb(167, 220, 255);
+  text-align: center;
+
   }
   
 li {
-    float: left;
-    
+  display: inline;
   }
   
 li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 6px 16px;
-    text-decoration: none;
+  color: #666;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
   }
   
 li a:hover:not(.act) {
-    background-color: #ddd;
+  background-color: #ddd;
   }
   
