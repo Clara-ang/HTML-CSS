@@ -1,16 +1,19 @@
 body {
   background-image: url("/html/img/fundo.jpg");
-  background-repeat: no-repeat, repeat;
+  background-repeat: repeat;
+  background-color: bisque;
  }
 
 nav {
   list-style-type: none;
   margin: 0;
-  padding: 2px;
+  margin-left: 5%;
+  padding: 2px 2% 3px 5%;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
+  border: 3px solid #e7e7e7;
   background-color: rgb(167, 220, 255);
   text-align: left;
+  text-indent: -6%;
   }
   
 nav a {
@@ -24,3 +27,51 @@ nav a:hover:not(.act) {
   background-color: #ddd;
   }
   
+.negrito {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+.topicos1 {
+  margin: 0% 0% -5% 5%;
+  background: rgb(255, 255, 255);
+  width: 90%;
+  padding: 30px;
+  height: 600%;
+  border-width: 6%;
+  text-align: left;
+  font-size: 170%;
+}
+.topicos {
+  font-size: 100%;
+  margin: 5% 45% 5% 5%;
+  background: rgb(255, 255, 255);
+  width: 90%;
+  padding: 30px;
+  height: 600%;
+  border-width: 6%;
+  text-align: left;
+}
+
+figure {
+  width: 30%;
+  padding-left: 5px;
+  margin-left: 15px;
+  float: right;
+  display: block;
+  margin-top: 8em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  }
+  f1 {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+  }
+h1 {
+  margin-left: 5%;
+}
