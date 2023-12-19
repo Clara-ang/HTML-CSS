@@ -1,0 +1,57 @@
+#tudo {
+    width: 100%;
+    max-width: 77.5em;
+    min-width: 35em;
+    margin: auto;
+    padding: 0;
+   }
+   
+ header{
+    background-color: rgb(228, 217, 217);
+  }
+  article{
+    float: left;
+    width: 70%;
+    padding: 8px;
+    background-color: pink;
+  }
+  nav {
+    float: right;
+    width: 20%;
+    padding: 8px;
+    background-color: rgb(194, 234, 236);
+    margin-top: 0.2%;
+    margin-bottom: 5.2%;
+  }
+  nav a {
+    color: #666;
+    padding: 1px 3px;
+    text-decoration: solid;
+    }
+    
+  nav a:hover:not(.act) {
+    background-color: #ddd;
+    }
+    
+  h1 {
+    margin-left: 1%;
+    font-weight: bold;
+  }
+  p {
+    margin-left: 3%;
+    text-align: justify;
+  }
+  .pe {
+    margin-left: 1%;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 10%;
+    
+  }
+  footer {
+    width: 100%;
+    background-color: rgb(187, 248, 197);
+    clear: both;
+    margin: auto;
+
+  }
